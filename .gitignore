@@ -65,3 +65,4 @@ typings/
 
 .cache
 dist
+public/index.html

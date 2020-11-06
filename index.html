@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>cps Handson</title>
   </head>
   <style>
@@ -21,10 +22,12 @@
       animation-name: rotation;
       animation-iteration-count: infinite;
       animation-duration: 1s;
-      transform: rotate(0);
     }
 
     @keyframes rotation {
+      from {
+        transform: rotate(0);
+      }
       to {
         transform: rotate(1turn);
       }
@@ -33,5 +36,6 @@
 
   <body>
     CPS
+    <img src="https://github.com/identicons/cps" />
   </body>
 </html>
